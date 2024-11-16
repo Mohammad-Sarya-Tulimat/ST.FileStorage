@@ -69,11 +69,10 @@ namespace ST.FileStorage.AWSS3
             }
             catch (Exception ex)
             {
-                //_logger.Error(ex, "Error while getting object metadata");   
-            }
-
-            output = null;
-            return false;
+                output = null;
+                return false;
+            
+            } 
         }
         public async Task<string> Copy(string srcFile, string destFile, FileExistsHandling handlingType = FileExistsHandling.ThrowException, CancellationToken cancellationToken = default)
         {

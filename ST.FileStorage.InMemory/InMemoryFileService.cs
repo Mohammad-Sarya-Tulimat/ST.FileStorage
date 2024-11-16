@@ -62,7 +62,7 @@ namespace ST.FileStorage.InMemory
                 var sourceStream = _files[srcFile];
                 if (sourceStream.CanSeek)
                     sourceStream.Position = 0;
-                sourceStream.CopyTo(_files[destFile]);
+                await sourceStream.CopyToAsync(_files[destFile]);
             }
             else throw new FileNotFoundException("Can not find file", srcFile);
             return destFile;

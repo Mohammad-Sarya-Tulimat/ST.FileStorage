@@ -1,6 +1,7 @@
 ﻿
 
 using ST.FileStorage.Encryption.Encryption;
+using ST.FileStorage.Encryption.Options;
 using System;
 
 namespace ST.FileStorage.Abstractions.Builders

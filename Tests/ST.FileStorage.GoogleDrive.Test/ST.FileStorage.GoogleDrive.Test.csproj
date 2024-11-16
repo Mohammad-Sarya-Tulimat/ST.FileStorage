@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ST.FileStorage.GoogleDrive\ST.FileStorage.GoogleDrive.csproj" />
+    <ProjectReference Include="..\..\ST.FileStorage.GoogleDrive\ST.FileStorage.GoogleDrive.csproj" />
   </ItemGroup>
 
   <ItemGroup>
