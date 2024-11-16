@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3587" />
+    <PackageReference Include="System.IO.Pipelines" Version="9.0.0" /> 
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ST.FileStorage.Abstractions\ST.FileStorage.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
