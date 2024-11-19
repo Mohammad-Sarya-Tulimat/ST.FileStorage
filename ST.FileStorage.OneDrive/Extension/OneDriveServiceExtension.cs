@@ -8,7 +8,7 @@ namespace ST.FileStorage.OneDrive.Extension
 {
     public static class OneDriveServiceExtension
     {
-        public static FileServiceBuilder UseLocalStorage(this FileServiceBuilder builder, OneDriveOptions FileOptions)
+        public static FileServiceBuilder UseOneDrive(this FileServiceBuilder builder, OneDriveOptions FileOptions)
         {
             builder.Set(new OneDriveService(FileOptions));
             return builder;
