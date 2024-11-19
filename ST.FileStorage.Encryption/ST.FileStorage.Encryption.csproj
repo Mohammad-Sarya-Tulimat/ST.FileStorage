@@ -6,6 +6,12 @@
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Authors>Sarya</Authors>
+	  <Company>Sarya</Company>
+	  <PackageProjectUrl>https://github.com/Mohammad-Sarya-Tulimat/ST.FileStorage</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/Mohammad-Sarya-Tulimat/ST.FileStorage</RepositoryUrl>
+	  <Description>add encryption layer to your ST.FileStorage.Abstractions implementation </Description>
   </PropertyGroup>
 
   <ItemGroup>
